@@ -26,7 +26,7 @@ public class App {
 		System.out.print("\n\nDigite o segundo número: ");
 		numB = Integer.valueOf( in.nextLine() );
 		
-		System.out.print("\n\nDigite uma das 4 opecacoes basicas [+-/*]: ");
+		System.out.print("\n\nDigite uma das 4 operacoes basicas [+-/*]: ");
 		operacao = in.nextLine();
 		
 		OperacaoMatematica o = new OperacaoMatematica(numA, numB, operacao);
